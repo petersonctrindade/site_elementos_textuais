@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,40 +15,47 @@
             padding: 0px 100px 50px;
         }
 
-        main {
-            text-align: center;
-        }
-
         img {
             height: 200px;
         }
 
-        p {
-            font-size: larger;
+        div {
+            text-align: center;
         }
 
-        h1, h2 {
-            text-align: center;
+        p {
+            font-size: larger;
+            text-align: left;
         }
 
         blockquote {
             white-space: pre-line;
+            text-align: left;
+        }
+
+        pre {
+            text-align: left;
+        }
+
+        div:last-of-type {
+            text-align: left;
         }
     </style>
 </head>
 <body>
-    <header>
+    <div>
         <h1>A História do Linux</h1>
-    </header>
-    <main>
+
         <hr>
 
         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Tux.svg/800px-Tux.svg.png" alt="Tux: Linux mascot">
 
         <p>
-            <em>Linux</em> começou em <ins>1991</ins> como um <ins>projeto pessoal</ins> pelo estudante finlandês <em>Linus Torvalds</em> que tinha o objetivo de criar um <dfn>kernel</dfn> gratuito para sistemas operacionais. O resultante <dfn>kernel</dfn> <em>Linux</em> foi marcado por constante crescimento durante sua história. Desde o lançamento inicial do seu código fonte em <ins>1991</ins>, ele cresceu de um pequeno número de arquivos escritos na <strong>linguagem de programação C</strong> sobre licença <em>proibindo</em> a sua distribuição comercial para a versão 4.15 em 2018 com mais de <strong>23 milhões</strong> de linhas do código fonte, sem contar os comentários, atualmente sobre a <abbr title="GNU General Public License v2">GNU GPLv2</abbr>
+            <em>Linux</em> começou em <em>1991</em> como um <ins>projeto pessoal</ins> pelo estudante finlandês <em>Linus Torvalds</em> que tinha o objetivo de criar um <dfn>kernel</dfn> gratuito para sistemas operacionais. O resultante <dfn>kernel</dfn> <em>Linux</em> foi marcado por constante crescimento durante sua história. Desde o lançamento inicial do seu código fonte em 1991, ele cresceu de um pequeno número de arquivos escritos na <strong>linguagem de programação C</strong> sobre licença <em>proibindo</em> a sua distribuição comercial para a versão 4.15 em 2018 com mais de <strong>23 milhões</strong> de linhas do código fonte, sem contar os comentários, atualmente sobre a <abbr title="GNU General Public License v2">GNU GPLv2</abbr>
         </p>
+    </div>
 
+    <div>
         <h2>A Criação do Linux</h2>
 
         <hr>
@@ -56,15 +63,15 @@
         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Linus_Torvalds.jpeg/220px-Linus_Torvalds.jpeg" alt="Linus Torvalds photo">
 
         <p>
-            em <ins>1991</ins>, enquanto estudava Ciência da Computação na Universidade de Helsinki, <em>Linus Torvalds</em> começou um projeto que mais tarde viria a se tornar o <dfn>kernel</dfn> <em>Linux</em>. Ele escreveu o programa especificamente para o hardware que ele estava usando e independente de sistema operacional já que ele queria usar as novas funções do seu novo computador em um processador 80386. Ele usou o sistema MINIX junto com o GNU C Compiler para o desenvolvimento.
+            em 1991, enquanto estudava Ciência da Computação na Universidade de Helsinki, <em>Linus Torvalds</em> começou um projeto que mais tarde viria a se tornar o <dfn>kernel</dfn> <em>Linux</em>. Ele escreveu o programa especificamente para o hardware que ele estava usando e independente de sistema operacional já que ele queria usar as novas funções do seu novo computador em um processador 80386. Ele usou o sistema MINIX junto com o GNU C Compiler para o desenvolvimento.
         </p>
 
         <p>
-            Em <time datetime="1991-07-03">3 de julho de <ins>1991</ins></time>, em um esforço de implementar chamadas do sistema Unix no seu projeto, <em>Linus Torvalds</em> tentou obter uma cópia digital dos documentos de padrões POSIX no grupo de notícias <em>comp.minix.os</em>, algo que não obteve sucesso. então <em>Linus Torvalds</em> começou a implementar chamadas do sistema SunOS que a sua universidade possuía posse
+            Em <time datetime="1991-07-03">3 de julho de 1991</time>, em um esforço de implementar chamadas do sistema Unix no seu projeto, <em>Linus Torvalds</em> tentou obter uma cópia digital dos documentos de padrões POSIX no grupo de notícias <em>comp.minix.os</em>, algo que não obteve sucesso. então <em>Linus Torvalds</em> começou a implementar chamadas do sistema SunOS que a sua universidade possuía posse
         </p>
 
         <p>
-            Enquanto <em>Linus Torvalds</em> escrevia o seu livro <cite><ins>Just For Fun</ins></cite>, ele eventualmente terminou escrevendo um <dfn>kernel</dfn> de sistema operacional, em <time datetime="1991-08-25">25 de agosto de <ins>1991</ins></time>, com <strong>21</strong> anos, ele anunciou esse sistema em outro grupo de notícias no <em>comp.os.minix</em>
+            Enquanto <em>Linus Torvalds</em> escrevia o seu livro <cite><ins>Just For Fun</ins></cite>, ele eventualmente terminou escrevendo um <dfn>kernel</dfn> de sistema operacional, em <time datetime="1991-08-25">25 de agosto de 1991</time>, com <strong>21</strong> anos, ele anunciou esse sistema em outro grupo de notícias no <em>comp.os.minix</em>
         </p>
 
         <blockquote>
@@ -80,9 +87,13 @@
         </blockquote>
 
         <cite>- Linus Torvalds</cite>
-    </main>
-    <footer>
+    </div>
+
+    <br>
+
+    <div>
         <bdo dir="rtl">Este site foi feito pelo Peterson</bdo>
-    </footer>
+        <address>Contato: joão@grêmio.com</address>
+    </div>
 </body>
 </html>
